@@ -12,7 +12,7 @@ gulp watch
 ```
 
 ###laravel-elixir
-gulpfile.js
+gulpfile.js (laravel5.2)
 ```
 // elixir.config.assetsPath = 'assets';
 
