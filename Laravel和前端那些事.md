@@ -8,6 +8,7 @@ npm install --registry https://registry.npm.taobao.org --no-bin-link
 npm rebuild node-sass --registry https://registry.npm.taobao.org --no-bin-link
 gulp
 npm install laravel-elixir-browsersync-official --save-dev --registry https://registry.npm.taobao.org --no-bin-link
+gulp watch
 ```
 
 ###laravel-elixir
