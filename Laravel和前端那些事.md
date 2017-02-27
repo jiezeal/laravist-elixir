@@ -11,5 +11,6 @@ npm install laravel-elixir-browsersync-official --save-dev --registry https://re
 gulp watch
 ```
 
+###laravel-elixir
 
 
