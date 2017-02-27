@@ -31,7 +31,7 @@ elixir(function(mix) {
     // mix.scripts(['1.js', '2.js', '3.js']);
     
     // 解决缓存问题 （对静态文件的版本管理）
-    mix.styles(['1.css', '2.css', '3.css']).version('css/all.css');
+    mix.styles(['1.css', '2.css', '3.css']).version('css/all.css').browserSync();
 });
 ```
 
