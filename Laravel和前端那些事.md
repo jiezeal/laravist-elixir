@@ -35,6 +35,16 @@ elixir(function(mix) {
 });
 ```
 
+gulpfile.js (laravel5.2)
+```
+elixir((mix) => {
+    mix.sass('app.scss')
+       .sass('welcome.scss', 'public/home/welcome.css').version('home/welcome.css')
+       .browserSync()
+       .webpack('app.js');
+});
+```
+
 welcome.blade.php
 ```
 <link rel="stylesheet" href="{{ elixir('css/all.css') }}">
