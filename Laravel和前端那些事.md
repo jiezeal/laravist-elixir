@@ -68,6 +68,5 @@ yarn config set registry https://registry.npm.taobao.org
 yarn --no-bin-links
 
 yarn add underscore
-
-https://yarnpkg.com/zh-Hans/docs
 ```
+https://yarnpkg.com/zh-Hans/docs
