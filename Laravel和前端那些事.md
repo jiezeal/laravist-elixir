@@ -33,6 +33,10 @@ elixir(function(mix) {
     // 解决缓存问题 （对静态文件的版本管理）
     mix.styles(['1.css', '2.css', '3.css']).version('css/all.css');
 });
+```
 
+welcome.blade.php
+```
+<link rel="stylesheet" href="{{ elixir('css/all.css') }}">
 ```
 
