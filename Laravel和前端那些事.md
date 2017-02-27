@@ -57,5 +57,5 @@ welcome.blade.php
     "laravelcollective/html": "5.3.*"
 }
 
-
+composer update
 ```
