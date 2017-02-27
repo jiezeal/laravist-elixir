@@ -39,7 +39,6 @@ gulpfile.js (laravel5.2)
 ```
 elixir((mix) => {
     mix.sass('app.scss')
-       .sass('welcome.scss', 'public/home/welcome.css').version('home/welcome.css')
        .browserSync()
        .webpack('app.js');
 });
