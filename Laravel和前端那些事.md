@@ -4,4 +4,6 @@
 composer create-project laravel/laravel laravel --prefer-dist "5.3.*"
 cd laravel
 npm install --save-dev gulp --registry https://registry.npm.taobao.org --no-bin-link
+npm install --registry https://registry.npm.taobao.org --no-bin-link
+npm rebuild node-sass --registry https://registry.npm.taobao.org --no-bin-link
 ```
