@@ -52,3 +52,10 @@ welcome.blade.php
 
 ###laravel 表单和HTML扩展包
 参考资料：[http://www.cnblogs.com/offcos/p/5840137.html](http://www.cnblogs.com/offcos/p/5840137.html)
+```
+"require": {
+    "laravelcollective/html": "5.3.*"
+}
+
+
+```
