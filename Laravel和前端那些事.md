@@ -56,6 +56,8 @@ welcome.blade.php
 "require": {
     "laravelcollective/html": "5.3.*"
 }
+```
 
+```
 composer update
 ```
