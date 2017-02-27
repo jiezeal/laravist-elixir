@@ -39,4 +39,3 @@ welcome.blade.php
 ```
 <link rel="stylesheet" href="{{ elixir('css/all.css') }}">
 ```
-
