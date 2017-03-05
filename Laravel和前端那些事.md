@@ -62,6 +62,14 @@ welcome.blade.php
 composer update
 ```
 
+config/app.php
+```
+'providers' => [
+  ...
+  Collective\Html\HtmlServiceProvider::class,
+],
+```
+
 ###yarn
 ```
 yarn config set registry https://registry.npm.taobao.org
